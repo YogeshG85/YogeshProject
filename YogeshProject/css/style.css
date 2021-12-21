@@ -1,0 +1,47 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#main{
+  margin: auto;
+  width: 40%;
+}
+#container {
+  background: url(../images/bg-image.png) repeat;
+  width: 500px;
+  height: 400px;
+  margin-top: 15px;
+  border: 2px solid #00682c;
+}
+#box {
+  position: relative;
+  background: transparent;
+  width: 10%;
+  height: 10%;
+}
+button{
+  background-color: #00682c;
+  color: #fff;
+  padding: 10px 17px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.inputs input {
+  width: 70px;
+  margin-right: 8px;
+}
+.inputs button{
+  padding: 6px 18px;
+  margin-left: 5px;
+}
+.buttons{
+  margin-top: 20px;
+}
+.buttons button{margin-right: 10px;}
+#droneImg{
+  transform: rotate(-90deg);
+  transition: transform 5s;
+  position: absolute;
+}
+
